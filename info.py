@@ -21,12 +21,12 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7708522448:AAEyHJ-zmcEssBdoWMAKukrETl-eKEL
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5935267941').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/me_miss_you") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002400433284'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+1FKd5QX1GG1jY2M1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002486613099').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbots.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=learningbots")
-DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://RAJRC12:RAJRC12@rajrc123.iv7ul.mongodb.net/?retryWrites=true&w=majority&appName=RAJRC123")
+DATABASE_NAME = environ.get('DATABASE_NAME', "RAJRC123")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
